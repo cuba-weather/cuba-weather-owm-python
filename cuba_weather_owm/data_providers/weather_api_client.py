@@ -27,7 +27,11 @@ class WeatherApiClient:
 
     days_forecasts = []
 
-    for i in range(8, len(f), 8):
-      days_forecasts.append(f.get(i))
+    for i in range(0, len(f), 8):
+      one_day = []
+      for j in range(i, i+8):
+        one_day.append(f.get(j))
+      
+      days_forecasts.append(one_day)
 
     return WeatherModel(location=location, date=date, daysForecast=days_forecasts)

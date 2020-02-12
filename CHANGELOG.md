@@ -25,3 +25,8 @@
 
 * Updated sources
 * Updated examples
+
+## [0.0.7] - February 12, 2020
+
+* Fix temperature forecast
+* Show today weather state
