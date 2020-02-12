@@ -16,3 +16,7 @@
 ## [0.0.4-beta] - February 12, 2020
 
 * Fixing weather __str__ output
+
+## [0.0.5] - February 12, 2020
+
+* Show only nexted days

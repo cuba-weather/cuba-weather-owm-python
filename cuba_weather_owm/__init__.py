@@ -1,4 +1,4 @@
-__version__ = '0.0.4'
+__version__ = '0.0.5'
 
 from cuba_weather_municipality import CubaWeatherMunicipality
 from .models import WeatherModel
