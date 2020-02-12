@@ -5,10 +5,10 @@ from .models import WeatherModel
 from .repositories import SourceRepository, WeatherRepository
 
 class CubaWeatherOWM:
-  def __init__(self):
+  def __init__(self, api_key):
     self._cubaWeatherMunicipality = CubaWeatherMunicipality()
     self._sourceRepository = SourceRepository()
-    self._weatherRepository = WeatherRepository()
+    self._weatherRepository = WeatherRepository(api_key)
 
   def get(self, input: str) -> WeatherModel:
     '''

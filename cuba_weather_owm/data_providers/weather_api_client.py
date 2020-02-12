@@ -11,8 +11,8 @@ class WeatherApiClient:
   '''
     Class to provide the functionality of making API requests
   '''
-  def __init__(self):
-    self.api = OWM(os.environ['OWM_API_KEY'], language='es')
+  def __init__(self, api_key):
+    self.api = OWM(api_key, language='es')
   
   def fetchWeather(self, location: str) -> WeatherModel:
     '''
