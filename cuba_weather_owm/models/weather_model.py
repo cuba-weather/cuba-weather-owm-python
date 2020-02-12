@@ -15,7 +15,7 @@ class WeatherModel:
       day = w[0].get_reference_time('date')
       tmax = w[0].get_temperature(unit='celsius')['temp_max']
       tmin = w[0].get_temperature(unit='celsius')['temp_min']
-      description = w.get_detailed_status()
+      description = w[0].get_detailed_status()
       for d in w:
         tmx = d.get_temperature(unit='celsius')['temp_max']
         tmn = d.get_temperature(unit='celsius')['temp_min']
