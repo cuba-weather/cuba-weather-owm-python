@@ -19,8 +19,8 @@ class WeatherModel:
     result += 'City Name: {}\n'.format(self.cityName)
     result += 'Datetime Update: {}\n'.format(self.datetime)
 
-    for i in range(8, len(self.days)):
-      result += '{}\n'.format(i)
+    for w in self.days:
+      result += '{}\n'.format(w)
 
     return result
 
@@ -37,6 +37,8 @@ class WeatherDayModel:
 
   def __str__(self):
     return '''
-      Day: {}, Maximum Temperature: {}°C, 
-      Minimum Temperature: {}°C, Description: {}
+    \nDay: {}\n 
+    Maximum Temperature: {}°C\n
+    Minimum Temperature: {}°C\n 
+    Description: {}\n
     '''.format(self.day, self.tmax, self.tmin, self.description)
