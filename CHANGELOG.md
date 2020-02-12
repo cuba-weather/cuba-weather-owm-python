@@ -20,3 +20,8 @@
 ## [0.0.5] - February 12, 2020
 
 * Show only nexted days
+
+## [0.0.6] - February 12, 2020
+
+* Updated sources
+* Updated examples

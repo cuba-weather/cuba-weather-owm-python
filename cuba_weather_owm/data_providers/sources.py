@@ -2,44 +2,860 @@ from ..models import SourceModel
 
 # Sources of weather data
 sources = [
-  SourceModel(
-    name='Pinar del Río',
-    lat=22.412222,
-    lon=-83.671944,
-  ),
-  SourceModel(
-    name='La Habana',
-    lat=23.136667,
-    lon=-82.358889,
-  ),
-  SourceModel(
-    name='Varadero',
-    lat=23.139444,
-    lon=-81.286111,
-  ),
-  SourceModel(
-    name='Cienfuegos',
-    lat=22.145556,
-    lon=-80.436389,
-  ),
-  SourceModel(
-    name='Cayo Coco',
-    lat=22.514722,
-    lon=-78.511389,
-  ),
-  SourceModel(
-    name='Camagüey',
-    lat=21.383889,
-    lon=-77.9075,
-  ),
-  SourceModel(
-    name='Holguín',
-    lat=20.886944,
-    lon=-76.259167,
-  ),
-  SourceModel(
-    name='Santiago de Cuba',
-    lat=20.019833,
-    lon=-75.813917,
-  ),
+
+SourceModel(
+	name='Centro Habana',
+	lat=23.13833,
+	lon=-82.364166,
+),
+SourceModel(
+	name='Provincia de Camagüey',
+	lat=21.35,
+	lon=-77.849998,
+),
+SourceModel(
+	name='Camaguey',
+	lat=21.380831,
+	lon=-77.916939,
+),
+SourceModel(
+	name='Provincia de Ciego de Ávila',
+	lat=21.9,
+	lon=-78.599998,
+),
+SourceModel(
+	name='Ciego de Avila',
+	lat=21.84,
+	lon=-78.76194,
+),
+SourceModel(
+	name='Las Tunas',
+	lat=21.1,
+	lon=-76.900002,
+),
+SourceModel(
+	name='Las Tunas',
+	lat=20.96167,
+	lon=-76.951111,
+),
+SourceModel(
+	name='Provincia de Holguín',
+	lat=20.799999,
+	lon=-75.75,
+),
+SourceModel(
+	name='Holguin',
+	lat=20.88722,
+	lon=-76.263062,
+),
+SourceModel(
+	name='Provincia Granma',
+	lat=20.25,
+	lon=-77,
+),
+SourceModel(
+	name='Bayamo',
+	lat=20.379169,
+	lon=-76.643333,
+),
+SourceModel(
+	name='Provincia de Santiago de Cuba',
+	lat=20.25,
+	lon=-76,
+),
+SourceModel(
+	name='Santiago de Cuba',
+	lat=20.024719,
+	lon=-75.821938,
+),
+SourceModel(
+	name='Provincia de Villa Clara',
+	lat=22.5,
+	lon=-80,
+),
+SourceModel(
+	name='Santa Clara',
+	lat=22.16667,
+	lon=-79.76667,
+),
+SourceModel(
+	name='Fomento',
+	lat=22.103889,
+	lon=-79.721672,
+),
+SourceModel(
+	name='Provincia Artemisa',
+	lat=22.813999,
+	lon=-82.756058,
+),
+SourceModel(
+	name='Rodas',
+	lat=22.34083,
+	lon=-80.55722,
+),
+SourceModel(
+	name='Jobabo',
+	lat=20.96917,
+	lon=-76.299438,
+),
+SourceModel(
+	name='Guanajay',
+	lat=22.92639,
+	lon=-82.6875,
+),
+SourceModel(
+	name='Gibara',
+	lat=21.10972,
+	lon=-76.131668,
+),
+SourceModel(
+	name='Baguanos',
+	lat=20.751671,
+	lon=-76.026939,
+),
+SourceModel(
+	name='Provincia de La Habana',
+	lat=23.08333,
+	lon=-82.300003,
+),
+SourceModel(
+	name='Havana',
+	lat=23.13302,
+	lon=-82.383041,
+),
+SourceModel(
+	name='Provincia de Matanzas',
+	lat=22.66667,
+	lon=-81.166672,
+),
+SourceModel(
+	name='Matanzas',
+	lat=23.041109,
+	lon=-81.577499,
+),
+SourceModel(
+	name='Pinar del Rio',
+	lat=22.4175,
+	lon=-83.698059,
+),
+SourceModel(
+	name='Provincia de Sancti Spíritus',
+	lat=22,
+	lon=-79.25,
+),
+SourceModel(
+	name='Sancti Spiritus',
+	lat=21.92972,
+	lon=-79.442497,
+),
+SourceModel(
+	name='Cienfuegos',
+	lat=22.146111,
+	lon=-80.435562,
+),
+SourceModel(
+	name='Yaguajay',
+	lat=22.327221,
+	lon=-79.237778,
+),
+SourceModel(
+	name='San Luis',
+	lat=20.1875,
+	lon=-75.85083,
+),
+SourceModel(
+	name='Guane',
+	lat=22.202499,
+	lon=-84.087502,
+),
+SourceModel(
+	name='Caibarien',
+	lat=22.520559,
+	lon=-79.466942,
+),
+SourceModel(
+	name='Rancho Pekita',
+	lat=23.15,
+	lon=-82.26667,
+),
+SourceModel(
+	name='Republic of Cuba',
+	lat=22,
+	lon=-79.5,
+),
+SourceModel(
+	name='Provincia de Pinar del Río',
+	lat=22.41667,
+	lon=-83.833328,
+),
+SourceModel(
+	name='Media Luna',
+	lat=22.26667,
+	lon=-83.383331,
+),
+SourceModel(
+	name='Provincia de Cienfuegos',
+	lat=22.299999,
+	lon=-80.5,
+),
+SourceModel(
+	name='San Lino',
+	lat=22.4,
+	lon=-80.550003,
+),
+SourceModel(
+	name='Santa Juana',
+	lat=22.4,
+	lon=-83.583328,
+),
+SourceModel(
+	name='Residencial Porta',
+	lat=23.01667,
+	lon=-82.349998,
+),
+SourceModel(
+	name='Buenavista',
+	lat=22.98333,
+	lon=-82.400002,
+),
+SourceModel(
+	name='Almanza',
+	lat=23.066669,
+	lon=-81.416672,
+),
+SourceModel(
+	name='Venegas',
+	lat=21.783331,
+	lon=-79.98333,
+),
+SourceModel(
+	name='San Julián',
+	lat=22.1,
+	lon=-84.150002,
+),
+SourceModel(
+	name='Las Minas',
+	lat=22.47917,
+	lon=-79.925003,
+),
+SourceModel(
+	name='Municipio Especial Isla de la Juventud',
+	lat=21.83333,
+	lon=-82.481941,
+),
+SourceModel(
+	name='Vista del Río',
+	lat=21.85,
+	lon=-82.816673,
+),
+SourceModel(
+	name='Cuentas Claras',
+	lat=20.299999,
+	lon=-77.083328,
+),
+SourceModel(
+	name='Rolo Monterrey',
+	lat=20.647779,
+	lon=-74.921669,
+),
+SourceModel(
+	name='Los Ángeles',
+	lat=20.78694,
+	lon=-76.340828,
+),
+SourceModel(
+	name='La Luisa',
+	lat=22.98333,
+	lon=-82.416672,
+),
+SourceModel(
+	name='Provincia de Guantánamo',
+	lat=20.25,
+	lon=-74.75,
+),
+SourceModel(
+	name='Platanal',
+	lat=20.084999,
+	lon=-75.147499,
+),
+SourceModel(
+	name='Playa de Aguadores',
+	lat=19.96806,
+	lon=-75.832222,
+),
+SourceModel(
+	name='El Próximo',
+	lat=21.42333,
+	lon=-77.854721,
+),
+SourceModel(
+	name='Tejar la Palma',
+	lat=22.133329,
+	lon=-80.416672,
+),
+SourceModel(
+	name='San José',
+	lat=22.01667,
+	lon=-78.800003,
+),
+SourceModel(
+	name='Padrón',
+	lat=20.4,
+	lon=-76.599998,
+),
+SourceModel(
+	name='La Playa',
+	lat=20.346939,
+	lon=-74.504723,
+),
+SourceModel(
+	name='Siguanea',
+	lat=21.63139,
+	lon=-82.959717,
+),
+SourceModel(
+	name='Yara',
+	lat=20.27528,
+	lon=-76.953331,
+),
+SourceModel(
+	name='Vinales',
+	lat=22.61639,
+	lon=-83.707779,
+),
+SourceModel(
+	name='Vertientes',
+	lat=21.259439,
+	lon=-78.146393,
+),
+SourceModel(
+	name='Venezuela',
+	lat=21.735279,
+	lon=-78.796387,
+),
+SourceModel(
+	name='Varadero',
+	lat=23.15361,
+	lon=-81.251389,
+),
+SourceModel(
+	name='Union de Reyes',
+	lat=22.79528,
+	lon=-81.537498,
+),
+SourceModel(
+	name='Trinidad',
+	lat=21.801941,
+	lon=-79.984169,
+),
+SourceModel(
+	name='Sibanicu',
+	lat=21.235001,
+	lon=-77.52639,
+),
+SourceModel(
+	name='Santo Domingo',
+	lat=22.58667,
+	lon=-80.243607,
+),
+SourceModel(
+	name='Santiago de las Vegas',
+	lat=22.969999,
+	lon=-82.38694,
+),
+SourceModel(
+	name='Santa Cruz del Sur',
+	lat=20.71472,
+	lon=-77.99556,
+),
+SourceModel(
+	name='Provincia Mayabeque',
+	lat=22.96155,
+	lon=-82.147179,
+),
+SourceModel(
+	name='Santa Cruz del Norte',
+	lat=23.153891,
+	lon=-81.923607,
+),
+SourceModel(
+	name='Santa Clara',
+	lat=22.4,
+	lon=-79.966667,
+),
+SourceModel(
+	name='San Jose de las Lajas',
+	lat=22.96139,
+	lon=-82.151108,
+),
+SourceModel(
+	name='San Cristobal',
+	lat=22.71417,
+	lon=-83.048058,
+),
+SourceModel(
+	name='San Antonio de los Banos',
+	lat=22.891109,
+	lon=-82.499168,
+),
+SourceModel(
+	name='Sagua la Grande',
+	lat=22.806669,
+	lon=-80.075562,
+),
+SourceModel(
+	name='Sagua de Tanamo',
+	lat=20.58194,
+	lon=-75.241386,
+),
+SourceModel(
+	name='Rio Guayabal de Yateras',
+	lat=20.366671,
+	lon=-75.01667,
+),
+SourceModel(
+	name='Rio Cauto',
+	lat=20.56028,
+	lon=-76.916107,
+),
+SourceModel(
+	name='Remedios',
+	lat=22.49472,
+	lon=-79.54583,
+),
+SourceModel(
+	name='Ranchuelo',
+	lat=22.37722,
+	lon=-80.148888,
+),
+SourceModel(
+	name='Puerto Padre',
+	lat=21.195,
+	lon=-76.602783,
+),
+SourceModel(
+	name='Primero de Enero',
+	lat=21.946939,
+	lon=-78.428329,
+),
+SourceModel(
+	name='Placetas',
+	lat=22.311939,
+	lon=-79.653328,
+),
+SourceModel(
+	name='Perico',
+	lat=22.769171,
+	lon=-81.01889,
+),
+SourceModel(
+	name='Pedro Betancourt',
+	lat=22.727221,
+	lon=-81.290001,
+),
+SourceModel(
+	name='Palmira',
+	lat=22.241671,
+	lon=-80.390282,
+),
+SourceModel(
+	name='Palma Soriano',
+	lat=20.21722,
+	lon=-75.998894,
+),
+SourceModel(
+	name='Nuevitas',
+	lat=21.54528,
+	lon=-77.264442,
+),
+SourceModel(
+	name='Nueva Gerona',
+	lat=21.883329,
+	lon=-82.800003,
+),
+SourceModel(
+	name='Niquero',
+	lat=20.04306,
+	lon=-77.582779,
+),
+SourceModel(
+	name='Moron',
+	lat=22.10944,
+	lon=-78.627502,
+),
+SourceModel(
+	name='Moa',
+	lat=20.65694,
+	lon=-74.940277,
+),
+SourceModel(
+	name='Minas',
+	lat=21.48333,
+	lon=-77.616669,
+),
+SourceModel(
+	name='Media Luna',
+	lat=20.141939,
+	lon=-77.434998,
+),
+SourceModel(
+	name='Mariel',
+	lat=22.987499,
+	lon=-82.753609,
+),
+SourceModel(
+	name='Manzanillo',
+	lat=20.34333,
+	lon=-77.116669,
+),
+SourceModel(
+	name='Manicaragua',
+	lat=22.149441,
+	lon=-79.97361,
+),
+SourceModel(
+	name='Madruga',
+	lat=22.91139,
+	lon=-81.85611,
+),
+SourceModel(
+	name='Los Palacios',
+	lat=22.587219,
+	lon=-83.248611,
+),
+SourceModel(
+	name='La Salud',
+	lat=22.871389,
+	lon=-82.423889,
+),
+SourceModel(
+	name='Jovellanos',
+	lat=22.80444,
+	lon=-81.194443,
+),
+SourceModel(
+	name='Jiguani',
+	lat=20.366671,
+	lon=-76.427223,
+),
+SourceModel(
+	name='Jatibonico',
+	lat=21.94194,
+	lon=-79.169998,
+),
+SourceModel(
+	name='Jaruco',
+	lat=23.04306,
+	lon=-82.010834,
+),
+SourceModel(
+	name='Jaguey Grande',
+	lat=22.526939,
+	lon=-81.128609,
+),
+SourceModel(
+	name='Guisa',
+	lat=20.254999,
+	lon=-76.538612,
+),
+SourceModel(
+	name='Guira de Melena',
+	lat=22.79056,
+	lon=-82.50528,
+),
+SourceModel(
+	name='Gueines',
+	lat=22.836109,
+	lon=-82.028061,
+),
+SourceModel(
+	name='Guantanamo',
+	lat=20.14444,
+	lon=-75.209167,
+),
+SourceModel(
+	name='Guaimaro',
+	lat=21.049999,
+	lon=-77.349998,
+),
+SourceModel(
+	name='Florida',
+	lat=21.524719,
+	lon=-78.22583,
+),
+SourceModel(
+	name='Esmeralda',
+	lat=21.852501,
+	lon=-78.116943,
+),
+SourceModel(
+	name='Encrucijada',
+	lat=22.61694,
+	lon=-79.871109,
+),
+SourceModel(
+	name='Cumanayagua',
+	lat=22.149441,
+	lon=-80.202217,
+),
+SourceModel(
+	name='Cueto',
+	lat=20.64389,
+	lon=-75.935562,
+),
+SourceModel(
+	name='Cruces',
+	lat=22.34111,
+	lon=-80.26667,
+),
+SourceModel(
+	name='Corralillo',
+	lat=22.981939,
+	lon=-80.585564,
+),
+SourceModel(
+	name='Contramaestre',
+	lat=20.297779,
+	lon=-76.241386,
+),
+SourceModel(
+	name='Consolacion del Sur',
+	lat=22.504721,
+	lon=-83.513611,
+),
+SourceModel(
+	name='Condado',
+	lat=21.876671,
+	lon=-79.840279,
+),
+SourceModel(
+	name='Colon',
+	lat=22.71917,
+	lon=-80.90583,
+),
+SourceModel(
+	name='Colombia',
+	lat=20.98806,
+	lon=-77.429718,
+),
+SourceModel(
+	name='Cifuentes',
+	lat=22.645,
+	lon=-80.046112,
+),
+SourceModel(
+	name='Chambas',
+	lat=22.19278,
+	lon=-78.913612,
+),
+SourceModel(
+	name='Cardenas',
+	lat=23.0375,
+	lon=-81.20472,
+),
+SourceModel(
+	name='Campechuela',
+	lat=20.234171,
+	lon=-77.278893,
+),
+SourceModel(
+	name='Camajuani',
+	lat=22.48333,
+	lon=-79.75,
+),
+SourceModel(
+	name='Calimete',
+	lat=22.533331,
+	lon=-80.906113,
+),
+SourceModel(
+	name='Cabaiguan',
+	lat=22.07889,
+	lon=-79.499168,
+),
+SourceModel(
+	name='Bejucal',
+	lat=22.92861,
+	lon=-82.388611,
+),
+SourceModel(
+	name='Bauta',
+	lat=22.98278,
+	lon=-82.546387,
+),
+SourceModel(
+	name='Baragua',
+	lat=21.696671,
+	lon=-78.632782,
+),
+SourceModel(
+	name='Baracoa',
+	lat=20.34667,
+	lon=-74.495827,
+),
+SourceModel(
+	name='Banes',
+	lat=20.9625,
+	lon=-75.718613,
+),
+SourceModel(
+	name='Bahia Honda',
+	lat=22.90361,
+	lon=-83.159172,
+),
+SourceModel(
+	name='Artemisa',
+	lat=22.813061,
+	lon=-82.76194,
+),
+SourceModel(
+	name='Alquizar',
+	lat=22.80583,
+	lon=-82.584167,
+),
+SourceModel(
+	name='Alamar',
+	lat=23.158331,
+	lon=-82.276939,
+),
+SourceModel(
+	name='Aguada de Pasajeros',
+	lat=22.385,
+	lon=-80.85083,
+),
+SourceModel(
+	name='Abreus',
+	lat=22.2775,
+	lon=-80.567497,
+),
+SourceModel(
+	name='Zaza del Medio',
+	lat=21.996111,
+	lon=-79.366943,
+),
+SourceModel(
+	name='San Nicolas',
+	lat=22.784439,
+	lon=-81.91333,
+),
+SourceModel(
+	name='San Luis',
+	lat=22.27861,
+	lon=-83.761108,
+),
+SourceModel(
+	name='San Diego de los Banos',
+	lat=22.646669,
+	lon=-83.36972,
+),
+SourceModel(
+	name='Rancho Veloz',
+	lat=22.88056,
+	lon=-80.39167,
+),
+SourceModel(
+	name='Quivican',
+	lat=22.823059,
+	lon=-82.355003,
+),
+SourceModel(
+	name='Quemado de Guines',
+	lat=22.78528,
+	lon=-80.253609,
+),
+SourceModel(
+	name='Melena del Sur',
+	lat=22.78813,
+	lon=-82.151382,
+),
+SourceModel(
+	name='Marti',
+	lat=22.9475,
+	lon=-80.92028,
+),
+SourceModel(
+	name='Mantua',
+	lat=22.288891,
+	lon=-84.284439,
+),
+SourceModel(
+	name='Manguito',
+	lat=22.58806,
+	lon=-80.914436,
+),
+SourceModel(
+	name='Manati',
+	lat=21.3125,
+	lon=-76.937782,
+),
+SourceModel(
+	name='Los Arabos',
+	lat=22.72806,
+	lon=-80.72139,
+),
+SourceModel(
+	name='Jamaica',
+	lat=22.97917,
+	lon=-82.17028,
+),
+SourceModel(
+	name='Municipio de Melena del Sur',
+	lat=22.78821,
+	lon=-82.151131,
+),
+SourceModel(
+	name='Guara',
+	lat=22.809999,
+	lon=-82.203056,
+),
+SourceModel(
+	name='Manalich',
+	lat=22.811119,
+	lon=-82.147476,
+),
+SourceModel(
+	name='Esperanza',
+	lat=22.450001,
+	lon=-80.099998,
+),
+SourceModel(
+	name='El Cobre',
+	lat=20.048889,
+	lon=-75.946938,
+),
+SourceModel(
+	name='El Caney',
+	lat=21.299999,
+	lon=-78.48333,
+),
+SourceModel(
+	name='Candelaria',
+	lat=22.740561,
+	lon=-82.961113,
+),
+SourceModel(
+	name='Calabazar de Sagua',
+	lat=22.64472,
+	lon=-79.896111,
+),
+SourceModel(
+	name='Cabanas',
+	lat=22.97583,
+	lon=-82.921944,
+),
+SourceModel(
+	name='Bolondron',
+	lat=22.76333,
+	lon=-81.446938,
+),
+SourceModel(
+	name='Batabano',
+	lat=22.716391,
+	lon=-82.288063,
+),
+SourceModel(
+	name='Alacranes',
+	lat=22.7675,
+	lon=-81.567497,
+),
 ]
