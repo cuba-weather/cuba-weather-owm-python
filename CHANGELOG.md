@@ -8,3 +8,7 @@
 ## [0.0.2-beta] - February 12, 2020
 
 * Changed method for set owm api key
+
+## [0.0.2-beta] - February 12, 2020
+
+* Fixing errors

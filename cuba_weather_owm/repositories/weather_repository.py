@@ -9,4 +9,4 @@ class WeatherRepository:
     self.weatherApiClient = WeatherApiClient(api_key)
 
   def getWeather(self, source: SourceModel) -> WeatherModel:
-    return self.weatherApiClient.fetchWeather(source.pattern)
+    return self.weatherApiClient.fetchWeather(source.name)
